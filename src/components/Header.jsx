@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="bg-[#2699fb] p-4">
       <div className="flex items-center py-[15px] justify-between max-w-[1240px] mx-auto">
-        <div className="text-3xl font-bold">Nav Bar</div>
+        <div className="text-3xl font-bold text-white">Nav Bar</div>
 
         {toggle ? (
           <AiOutlineClose
