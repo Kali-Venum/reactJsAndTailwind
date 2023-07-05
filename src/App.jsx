@@ -1,5 +1,6 @@
 // Components.
 import Banner from "./components/Banner";
+import Experts from "./components/Experts";
 import Header from "./components/Header";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Banner />
+      <Experts />
     </>
   );
 }
