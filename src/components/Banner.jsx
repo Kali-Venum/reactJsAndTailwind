@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import Button from "./Button";
 
 function Banner() {
   return (
@@ -14,14 +15,17 @@ function Banner() {
           <Typed
             className="pl-2"
             strings={[
-              "Web Development",
-              "Digital Marketing",
-              "Ethical Hacking",
+              "Web Development.",
+              "Digital Marketing.",
+              "Ethical Hacking.",
             ]}
             typeSpeed={100}
             backSpeed={50}
             loop={true}
           />
+        </div>
+        <div>
+          <Button styles="bg-black text-white p-3 rounded">Get Started</Button>
         </div>
       </div>
     </div>
